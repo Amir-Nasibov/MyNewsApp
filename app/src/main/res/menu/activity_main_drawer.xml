@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item
+            android:id="@+id/nav_add_news"
+            android:icon="@drawable/ic_add_news"
+            android:title="@string/add_news_activity"/>
+    <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/weather_activity"/>
+    <item
+            android:id="@+id/nav_authorization"
+            android:icon="@drawable/ic_authorization"
+            android:title="@string/authorization_activity"/>
+    <item
+            android:id="@+id/nav_about_program"
+            android:icon="@drawable/ic_about_program"
+            android:title="@string/about_program_activity"/>
+
+</menu>

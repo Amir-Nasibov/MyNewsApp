@@ -1,0 +1,39 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="main_activity">Новости</string>
+    <string name="detail_activity">Новость</string>
+    <string name="about_program_activity">О программе</string>
+    <string name="add_news_activity">Предложить новость</string>
+    <string name="authorization_activity">Авторизация</string>
+    <string name="weather_activity">Погода</string>
+    <string name="register_activity">Регистрация</string>
+
+    <string name="menu_item_title">Поделиться</string>
+    <string name="text_prog_name">My News App</string>
+    <string name="text_prog_version">Версия приложения: 1.0</string>
+    <string name="text_prog_autor">Автор: Насибов Амир</string>
+    <string name="ufa_info">Уфа́ — город в России, столица субъекта страны — Республики Башкортостан, административный
+        центр Уфимского района, в состав которого входит. Город республиканского значения, образует муниципальное
+        образование город Уфа со статусом городского округа.
+    </string>
+    <string name="site">Сайт</string>
+    <string name="text_site">https://www.go102.ru/</string>
+    <string name="number">Телефон</string>
+    <string name="text_number">8(987)053-0450</string>
+
+    <string name="add_news_text_above_photo">Добавьте фото новоcти</string>
+    <string name="add_news_text_under_btn">  Добавляя новость, я несу полную ответственность за ее содержание</string>
+    <string name="add_news_button">Отправить</string>
+    <string name="auth_enter">Войти</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Пароль</string>
+
+    <string name="fragment_register_password_text">Введите пароль</string>
+    <string name="fragment_register_password_button">Зарегистрироваться</string>
+
+</resources>

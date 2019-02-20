@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.developer.mynewsapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-feature
+            android:name="android.hardware.Camera"
+            android:required="true"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/main_activity"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".activities.MainActivity"
+                android:label="@string/main_activity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.DetailActivity"
+                android:label="@string/detail_activity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.AddNewsActivity"
+                android:label="@string/add_news_activity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.WeatherActivity"
+                android:label="@string/weather_activity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.AuthorizationActivity"
+                android:label="@string/authorization_activity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.AboutProgramActivity"
+                android:label="@string/about_program_activity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".activities.RegistrerActivity"
+                android:label="@string/register_activity"
+                android:screenOrientation="portrait">
+        </activity>
+
+        <provider
+                android:name="android.support.v4.content.FileProvider"
+                android:authorities="com.example.developer.mynewsapp.fileprovider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>
+
+    </application>
+
+</manifest>
