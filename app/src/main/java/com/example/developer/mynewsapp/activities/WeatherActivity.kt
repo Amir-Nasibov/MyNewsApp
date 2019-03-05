@@ -10,7 +10,6 @@ import com.example.developer.mynewsapp.weather.WeatherData
 import com.example.developer.mynewsapp.weather.WeatherPresenter
 import kotlinx.android.synthetic.main.activity_weather.*
 
-
 class WeatherActivity : AppCompatActivity() {
 
     private var weatherList = ArrayList<WeatherData>()
